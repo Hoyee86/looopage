@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Cormorant+SC:wght@300;400;500&family=Inter:wght@500&family=Maven+Pro:wght@400;500;600&family=Montserrat:wght@500&family=Poppins:wght@600&display=swap");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 4rem 8rem;
+    height: 100vh;
+    background-image: url(imagggg/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navRight ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 2.5rem;
+}
+
+.navRight ul li a, .footerTop div a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.navLeft h2 a {
+    font-size: 2rem;
+}
+
+.navLeft a {
+    color: white;
+    text-decoration: none;
+}
+
+.headerBottom {
+    width: 60%;
+    border: 1px solid white;
+    padding: 2rem;
+    margin-top: 9rem;
+}
+
+.headerBottom span {
+    font-size: 6rem;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Maven pro';
+}
+
+.sectionOne {
+    padding: 8rem;
+    display: flex;
+    align-items: end;
+
+}
+
+.sectionOneLeftDiv {
+    width: 70%;
+    z-index: 1;
+}
+
+.sectionOneLeftDiv img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.sectionOneRightDiv {
+    width: 50%;
+    padding: 6rem 0 0 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+    z-index: 2;
+    margin-left: -15rem;
+    background-color: white;
+}
+
+.sectionOneRightDiv h2 {
+    font-size: 3.5rem;
+    font-family: 'Maven pro';
+    font-weight: 200;
+}
+
+.sectionOneRightDiv p {
+    font-size: 22px;
+    color: rgb(126, 125, 125);
+}
+
+.sectionTwo {
+    padding: 8rem;
+}
+.sectionTwoTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionTwoTop button{
+    background-color: white;
+    padding: 1rem 3rem;
+
+}
+
+.sectionTwoTop div p {
+    font-family: 'Maven pro';
+    font-size: 3.5rem;
+    font-weight: 100;
+    color: rgb(65, 65, 65);
+}
+
+.gridContainer .gridBox {
+    height: 70vh;
+    padding: 3.5rem 8rem 3.5rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+
+    
+}
+
+.gridContainer div:nth-child(1) {
+    background-image: url(imagggg/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gridContainer div:nth-child(2) {
+    background-image: url(imagggg/desktop/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gridContainer div:nth-child(3) {
+    background-image: url(imagggg/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gridContainer div:nth-child(4) {
+    background-image: url(imagggg/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gridContainer div:nth-child(5) {
+    background-image: url(imagggg/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gridContainer div:nth-child(6) {
+    background-image: url(imagggg/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gridContainer div:nth-child(7) {
+    background-image: url(imagggg/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gridContainer div:nth-child(8) {
+    background-image: url(imagggg/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+    
+}
+.gridContainer .gridBox span {
+    color: white;
+    font-family: 'Maven Pro';
+    font-size: 2rem;
+
+}
+
+footer {
+    background-color: black;
+    padding: 2rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerContacts ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footerContacts ul li a {
+    font-size: 25px;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerBottomInnerRight p {
+    font-size: 16px;
+    color: rgb(151, 149, 149);
+    
+}
+
+.footerBottomInnerLeft ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    list-style-type: none;
+}
+
+.footerBottomInnerLeft ul li a {
+    text-decoration: none;
+    color: rgb(151, 149, 149);
+}
