@@ -39,11 +39,12 @@ nav {
     font-weight: 700;
 }
 
-.navLeft h2 a {
+.navLeft h2 {
     font-size: 2rem;
+   
 }
 
-.navLeft a {
+ .navLeft a {
     color: white;
     text-decoration: none;
 }
@@ -51,7 +52,7 @@ nav {
 .headerBottom {
     width: 60%;
     border: 1px solid white;
-    padding: 2rem;
+    padding: 1.5rem 2rem;
     margin-top: 9rem;
 }
 
