@@ -1,0 +1,168 @@
+
+    @media screen  and (max-width: 375px) {
+        .navRight ul {
+            display: none;
+        }
+
+        nav .mobileMenu {
+            display: block;
+        }
+
+        header {
+            padding: 2rem 1rem;
+            height: 100vh;
+        }
+
+        main {
+            padding: 3.5rem 1rem 10rem 1rem;
+            position: relative;
+        }
+
+        .headerBottom {
+            width: 100%;
+            margin-top: 5rem;
+        }
+
+        .headerBottom span {
+            font-size: 3rem;
+    
+        }
+
+        .sectionOne {
+            display: block;
+            padding: 0;
+        
+        }
+
+        .sectionOneLeftDiv {
+            width: 100%;
+            z-index: auto;
+            margin: 0 auto;
+
+       }
+       .sectionOneLeftDiv img {
+        width: 100%;
+        height: 80%;
+        z-index: 0;
+        }
+
+        .sectionOneRightDiv {
+            width: 100%;
+            z-index: 0;
+            margin-left: 0;
+            padding: 2rem 1rem;
+            text-align: center;
+            gap: 1rem;
+        
+        }
+        
+        .sectionOneRightDiv h2 {
+            font-size: 2rem;
+            font-family: 'Maven pro';
+            font-weight: 100;
+        }
+        
+        .sectionOneRightDiv p {
+            font-size: 1.25rem;
+            
+        }
+
+        .gridContainer {
+            display: grid;
+            grid-template-columns: 100%;
+            gap: 1rem;
+            
+        }
+
+        .sectionTwo {
+            padding: 0rem;
+        }
+
+        .sectionTwoTop {
+            display: block;
+        }
+
+        .sectionTwoTop button{
+            position: absolute;
+            bottom: 85px;
+            left: 95px;
+            padding: 0.7rem 3rem;
+            word-spacing: 8px;
+            font-size: 20px;
+            font-weight: 500;
+        
+        }
+
+        .gridContainer .gridBox {
+            height: 30vh;
+            padding: 3.5rem 10rem 1.5rem 1.5rem;
+            background-position-x: center;
+            
+        }
+
+        .gridContainer .gridBox span {
+            font-size: 1.7rem;
+            font-weight: lighter;
+            color: white
+        }
+
+        .sectionTwoTop div p {
+            font-size: 2rem;
+            /* width: 100%; */
+            text-align: center;
+            font-family: "Maven pro";
+
+        }
+
+        footer {
+            padding: 2rem 1rem;
+            gap: 15rem;
+            position: relative;
+
+        
+        }
+        
+        .footerTop {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .footerContacts {
+            position: absolute;
+            bottom: 60px;
+        }
+
+        .footerContacts ul {
+            gap: 1rem;
+        }
+
+        .footerBottom {
+            flex-direction: column;
+            width: 100%;
+           
+        }
+
+        .footerBottomInnerLeft{
+            position: absolute;
+            top: 90px;
+        }
+        .footerBottomInnerLeft ul {
+            flex-direction: column;
+            gap: 0.8rem;
+            
+        }
+
+        .footerBottomInnerLeft ul li a {
+            color: white;
+        }
+
+        .footerBottomInnerRight p{
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            
+        }
+
+    }
